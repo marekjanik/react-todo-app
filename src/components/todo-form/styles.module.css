@@ -1,0 +1,35 @@
+.todoForm {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.todoFormInput {
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #333;
+  padding-left: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.submitButton {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  color: #555;
+}
+
+@media (max-width: 440px) {
+  .todoForm {
+    width: 350px;
+  }
+}
