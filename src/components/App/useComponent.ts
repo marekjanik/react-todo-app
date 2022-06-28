@@ -21,7 +21,7 @@ export const useComponent = (): UseComponentType => {
 
   useEffect(() => {
     for (let i = 0; i < 3; i++) {
-      fetch('https://www.boredapi.com/api/activity/')
+      fetch('http://www.boredapi.com/api/activity/')
         .then((response) => {
           if (!response.ok) {
             throw Error(response.statusText);
